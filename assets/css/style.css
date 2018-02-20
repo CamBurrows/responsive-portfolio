@@ -1,0 +1,404 @@
+.headerbar {
+    background-color: #ffffff;
+    height: 84px;
+    border-bottom: 2px solid #cccccc;
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.headerbarcontent {
+    margin: 0 auto;
+    width: 960px;
+}
+
+body {
+    background-image: url(../images/circles-light.png);
+}
+
+h1 {
+    background-color: #44ABA5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 24px 30px;
+    float: left;
+    font-size: 24pt;
+    margin-bottom: 0px;
+    position: relative;
+    top: -20px;
+}
+
+
+nav {
+    float:left;
+    color: #cccccc;
+    margin-top: 32px;
+    position: relative;
+    left: 380px;
+}
+
+a {
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0px 7px;
+}
+
+.bio {
+    background-color: #ffffff;
+    padding: 8px 20px 10px 20px;
+    width: 608px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 24px;
+    font-size: 16px;
+    float: left;
+    border: #dddddd solid 1px;
+}
+
+h2 {
+    color: #44ABA5;
+    font-size: 24pt;
+    padding-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h3 {
+    color: #44ABA5;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 6px;
+}
+
+.content {
+    width: 960px;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 110px;
+    margin: 0 auto 40px auto;
+    clear: right;
+    content:"";
+    display: block;
+}
+
+#headshot {
+    float: left;
+    padding: 0px 10px 4px 0px;
+}
+
+.connect {
+    float:right;
+    background-color: #ffffff;
+    padding: 10px 20px 20px 20px;
+    width: 230px;
+    margin-left: 38px;
+    text-align: center;
+    border: #dddddd solid 1px;
+
+}
+
+#connectbreak {
+    border-top: 1px solid #cccccc;
+    margin-bottom: 16px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#666666;
+    height: 60px;
+    text-align: center;
+    padding: 16px 0px 6px 0px;
+    border-top: 6px solid #44ABA5;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+form {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[value="John Smith"] {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+input[value="example@gmail.com"] {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.submitbutton {
+    width: 120px;
+    height: 40px;
+    background-color: #44ABA5;
+    color: white;
+    font-size: 18px;
+}
+
+.imagecontainer {
+    float: left;
+}
+
+.row {
+    padding: 16px 0px;
+    float: left;
+    text-align: center;
+}
+
+.slot {
+    padding: 0px 20px;
+    float: left;
+    margin: auto;
+    position: relative;
+}
+
+.textcontainer {
+    background-color: #44ABA5;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 74%;
+}
+
+@media screen and (max-width:980px) {
+
+    .headerbarcontent {
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    nav {
+        float:left;
+        color: #cccccc;
+        margin-top: 32px;
+        position: relative;
+        left: 120px;
+    }
+
+    .content {
+        width: 700px;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 110px;
+        margin: 0 auto 40px auto;
+        clear: right;
+        content:"";
+        display: block;
+    }
+
+    .bio {
+        background-color: #ffffff;
+        padding: 8px 20px 10px 20px;
+        width: 340px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        line-height: 24px;
+        font-size: 16px;
+        border: #dddddd solid 1px;
+    }
+
+    #headshot {
+        padding: 0px 70px 4px 70px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .slot {
+        padding: 20px 20px;
+    }
+
+    .row {
+        padding: 0px 20px;
+    }
+    /* Having trouble getting my headshot to display as a block element.
+    Solution was to add padding to bump down text, but probably not optimal solution. */
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .headerbarcontent {
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    nav {
+        float:left;
+        color: #cccccc;
+        margin-top: 32px;
+        position: relative;
+        left: 120px;
+    }
+
+    .content {
+        width: 700px;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 110px;
+        margin: 0 auto 40px auto;
+        clear: right;
+        content:"";
+        display: block;
+    }
+
+    .bio {
+        background-color: #ffffff;
+        padding: 8px 20px 10px 20px;
+        width: 660px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        line-height: 24px;
+        font-size: 16px;
+        border: #dddddd solid 1px;
+    }
+
+    #headshot {
+        padding: 0px 20px 4px 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .connect {
+        float:left;
+        background-color: #ffffff;
+        padding: 10px 20px 20px 20px;
+        width: 700px;
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 30px;
+        border: #dddddd solid 1px;
+    }
+
+    .slot {
+        padding: 20px 20px;
+    }
+
+    .row {
+        padding: 0px 24px;
+    }
+
+@media screen and (max-width:640px) {
+
+    .headerbar {
+        background-color: #ffffff;
+        height: 120px;
+        border-bottom: 2px solid #cccccc;
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .headerbarcontent {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    h1 {
+        background-color: #44ABA5;
+        color: #ffffff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 20px 0px;
+        float: left;
+        font-size: 24pt;
+        margin-bottom: 0px;
+        position: relative;
+        top: -20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        color: #cccccc;
+        margin-top: -10px;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .navlink {
+        padding: 0px 60px;
+    }
+
+    .content {
+        width: 600px;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 110px;
+        margin: 0 auto 40px auto;
+        clear: right;
+        content:"";
+        display: block;
+    }
+
+    .bio {
+        background-color: #ffffff;
+        padding: 8px 20px 10px 20px;
+        width: 560px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        line-height: 24px;
+        font-size: 16px;
+        border: #dddddd solid 1px;
+    }
+
+    #headshot {
+        padding: 0px 20px 4px 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .connect {
+        float:left;
+        background-color: #ffffff;
+        padding: 10px 20px 20px 20px;
+        width: 700px;
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 30px;
+        border: #dddddd solid 1px;
+    }
+
+    .textcontainer {
+        background-color: #44ABA5;
+        color: white;
+        font-size: 36px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        bottom: 40px;
+        padding: 20px;
+        text-align: center;
+        width: 85%;
+    }
+
+    .row {
+        padding: 0px 9px;
+    }
+
+    .portfolio-image {
+        width: 500px;
+    }
+}
