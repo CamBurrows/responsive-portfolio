@@ -300,6 +300,8 @@ textarea {
         padding: 0px 24px;
     }
 
+}
+
 @media screen and (max-width:640px) {
 
     .headerbar {
